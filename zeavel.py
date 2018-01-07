@@ -33,4 +33,5 @@ async def on_message(message): # ивент on_message: триггерится �
         await message.channel.send(SearchUser(p))     
         
 
-client.run('Mzc2MDI5NjMwMTY1MDI0NzY5.DN416Q.SJ7yUmoGXlk8sahg1W3R7ah403A') 
+client.run(process.env.BOT_TOKEN) 
+/*Mzc2MDI5NjMwMTY1MDI0NzY5.DN416Q.SJ7yUmoGXlk8sahg1W3R7ah403A*/
